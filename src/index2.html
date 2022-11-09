@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Payment</title>
+</head>
+
+<body>
+
+  <section id="section_payment">
+    <h2>Pay for your ticket</h2> <br>
+    <h3>Payment details</h3> <br> <br>
+
+    <h3> Order summary</h3> <br><br>
+    <h4>General admission ticket $25</h4> <br> <br>
+
+    <span id="contenedor-datos-tarjeta">
+      <label for="name" class="fullName"> Full name <br> </label>
+        <input type="string" name="name" id="name"> <br> <br>
+
+        <label for="name"> Email <address></address> </label>
+          <input type="email" name="email" id="email" required> <br> <br>
+
+
+          <label for="creditCardNumber">Credit Card Number</label> <br>
+          <input id="creditCardNumber" placeholder="**** **** **** ****" maxlength="16" required/> <br> <br>
+
+          <label for="card-details" class="cardDesign"> Expiration date <br> <input type="year" name="expiration_date"
+              id="expiration_date" placeholder="MM/YYYY"> </label> <br> <br>
+
+            <label for="card-details" class="cardDesign"> CVV* <br> <input type="number" name="cardCVV" id="cardCVV"
+                placeholder="Security code" required> </label> <br><br>
+
+              <input type="button" value="Purchase" id="btn-purchase" />
+      </span>        
+  </section>
+
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

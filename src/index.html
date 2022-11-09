@@ -1,14 +1,88 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Oswald:wght@200&display=swap" rel="stylesheet">
+ 
+  <title>Card validation</title>
+</head>
+    <header>
+      <h1> MUSEUM OF <strong> MODERN ART </strong> </h1> 
+      <nav> 
+        <ul>
+            <li> <strong> PLAN YOUR VISIT </strong> </li> 
+            <li> | </li>  
+            <a href="#section_admission"> <li>  <strong>  ADMISSION INFORMATION </strong></li></a>
+            <li> | </li>
+            <a href="#section_gettingHere"> <li>  <strong>  GETTING HERE </strong></li></a>
+            <li> | </li>
+            <a href="#section_tickets"> <li>  <strong>  TICKETS </strong></li></a>
+            <li> | </li>
+            <a href="#section_newsletter"> <li>  <strong>  NEWSLETTER </strong></li></a>
+        </ul>
+    </nav>
+    </header>
+    <body>
+    <main>
+      <section>
+        <figure id="container" >
+
+          <img  id="MoMA" src="./imágenes/MoMA.jpeg" alt="MoMA">
+
+          </figure>
+          <br>
+      </section>
+
+      <section>
+        <h2 id="section_admission"> ADMISSION INFORMATION</h2>
+        
+        <h4> Sun–Fri, 10:30 a.m.–5:30 p.m. <br>
+          Sat, 10:30 a.m.–7:00 p.m. <br></h4>
+          <br>
+          <p> Monday mornings from 10:30 a.m.
+          to 1:00 p.m. are reserved exclusively
+          for members and their guests. <br> <br>
+          Free admission for New York City
+          residents on the first Friday evening
+          of every month, <br> from 4:00 to 8:00
+          p.m., is made possible by UNIQLO.</p>
+      </section>
+      <br>
+      <section>
+        <h2 id="section_gettingHere">GETTING HERE</h2>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.026918312505!2d-73.97981028491053!3d40.76143267932659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f97bdb102b%3A0xea9f8fc0b3ffff55!2sMoMA!5e0!3m2!1ses!2sus!4v1666637241265!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <section>
+        <h2 id="section_tickets"> TICKETS </h2>
+        <h4> General admission tickets $25</h4>
+        <h4> Members can access for free</h4>
+       <a href="./index2.html">  <button type="submit" id="button_buy" > Buy a general admission ticket online </button> </a>
+      </section>
+    </main>
+        <footer>
+        <div class="box">
+            <h2 id="section_newsletter"> <strong> SUBSCRIBE TO OUR NEWSLETTER! </strong> </h2> <br>
+            
+                <label for="name" class="input1"> Full Name* <br>
+                <input class="input1" type="text" name="name" id="name" autocomplete="name" required> 
+                </label> <br>
+    
+                <label for="email" class="input1"> Email Address* <br>
+                <input class="input1" type="email" name="email" id="email" autocomplete="email" required>
+                </label> <br>
+                  <br>
+                <label for="Submit" id="submit"> 
+                <input class="Submit" type="Submit" value="SUBMIT"> 
+                </label> </div>
+    
+    </footer>
+
   </body>
 </html>

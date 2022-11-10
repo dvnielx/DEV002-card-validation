@@ -4,7 +4,7 @@ const validator = {
   console.log("click se ejecutó" + creditCardNumber)
   let agregarDigitos = 0;
   
-  //si la cantidad de dígitos, al sacar su módulo da como resultado 0
+  //si la cantidad de dígitos, al sacar módulo(%) 2 da como resultado 0
   if(length % 2 == 0)
   {
       // Comienza al inicio del numero y duplica a partir del primer número
@@ -22,7 +22,6 @@ const validator = {
                   let primerNumero = parseInt(currentDigit / 10); //identifica el primer numero de currentDigit tomando el entero, es decir 1 p. ej 16 / 10 = 1.6 = 1
                   let ultimoNumero = currentDigit % 10; //identifica el ultimo número de current digit con modulo 10 p ej, 16 mod 10 = 6
                   
-
                   // suma el primero y último número de currentDigit
                   currentDigit = primerNumero + ultimoNumero;
               }
@@ -43,4 +42,4 @@ const validator = {
 
 export default validator;
 
-//5579100347228064 , 5253460008191610
+//5579100347228064 , 5253460008191610 

@@ -9,8 +9,6 @@
 ![img](./ProyectoFinal2.png)
 ![img](./Payment-index.png)
 
-
-
 ## iii. Investigación UX
 
 Las y los usuarios de mi producto son estudiantes, docentes y personas en general con acceso a internet, a un dispositivo móvil y con una tarjeta bancaria, las cuales estén interesadas en asistir a exposiciones museísticas y que busquen hacer más eficiente y *contactless* el proceso de compra de un boleto de entrada al museo. 

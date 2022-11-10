@@ -25,9 +25,10 @@
         <label for="name"> Email <address></address> </label>
           <input type="email" name="email" id="email" required> <br> <br>
 
+          <p id="numeroMaskify"> hola </p>
 
           <label for="creditCardNumber">Credit Card Number</label> <br>
-          <input id="creditCardNumber" placeholder="**** **** **** ****" maxlength="16" required/> <br> <br>
+          <input pattern=".{16,}" id="creditCardNumber" placeholder="**** **** **** ****" maxlength="16" required/> <br> <br>
 
           <label for="card-details" class="cardDesign"> Expiration date <br> <input type="year" name="expiration_date"
               id="expiration_date" placeholder="MM/YYYY"> </label> <br> <br>

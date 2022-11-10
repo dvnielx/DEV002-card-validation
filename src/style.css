@@ -111,12 +111,71 @@ input[type=button] {
  input[type=button]:hover {
     background-color: #1E5C48;
     color: #f6f6f6;
-
  }
+
+ input[type=submit] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    
+ }
+ input[type=submit]:hover {
+    background-color: #1E5C48;
+    color: #f6f6f6;
+ }
+
 #submit:hover {
     background-color: #1E5C48;
     color: #f6f6f6;
 }
+
+input[type=email] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    width: 20rem;
+ }
+
+ input[type=string] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    width: 20rem;
+ }
+ input[type=number] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    width: 13rem;
+ }
 
 #button_buy[type=submit] { 
 
@@ -131,6 +190,7 @@ input[type=button] {
     border-radius: .3rem;
     letter-spacing: .1rem;
  }
+ 
  #button_buy[type=submit]:hover {
     background-color: #1E5C48;
     color: #f6f6f6;
@@ -145,20 +205,26 @@ input[type=button] {
  }
  
  #section_payment {
-    background-color: #f6f3f3;
+    background-color: #f4f5f4;
     width: 50rem;
     text-align: center;
     display: table-cell;
  
 }
-#MoMA2 {
-    width: 40rem;
-    height: 60rem;
-    float: right;
-    display: flex;
-    padding-right: 3rem;
-
+.MoMA2 {
+    width: 55rem;
+    height: 62rem; 
 }
 #contenedor-datos-tarjeta {
     text-align:left ;
+}
+.container {
+    display: flex;
+}
+.pMoMA {
+    font-family:'Oswald', sans-serif; 
+    font-size: 5rem;
+}
+.numeroMaskify {
+    font-size: 1rem;
 }

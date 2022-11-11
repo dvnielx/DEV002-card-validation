@@ -224,6 +224,7 @@ input[type=email] {
 .pMoMA {
     font-family:'Oswald', sans-serif; 
     font-size: 5rem;
+    text-decoration: none;
 }
 .numeroMaskify {
     font-size: 1rem;

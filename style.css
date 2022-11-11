@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    color: #1a1b1c;
+    text-align: center;
+}
+nav {
+    font-size: 1.2rem;
+    color: #BABBBB;
+    list-style:armenian;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+nav ul {
+    justify-content:center
+}
+nav li {
+    display: inline-block;
+    font-size: 1 rem;
+    color: #5c5c5c;
+    letter-spacing: 4.48px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.6rem;
+    color: #BABBBB;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid #545454;
+    width: 35%;
+    margin-left: 30%;
+    
+}
+h2 {
+    color:#1E5C48;
+    border-top: #545454 solid 2px;
+    width: 69%;
+    margin-left: 15.5%;
+    padding: 1rem;
+
+}
+h1:hover {
+    color: #465775;
+    font-size: 3.8rem;
+}
+nav li:hover{
+    font-size: 1.22rem;
+    text-decoration:underline;
+    
+    }
+h4 {
+    color: #1a1b1c;
+    font-size: 1.5rem;
+    padding-bottom: 1%;
+    width: 77%;
+    margin-left: 11.5%;
+}
+h3:hover {
+    color: #465775;
+}
+li:hover {
+    color: #465775;
+}
+p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    color: #29292a; 
+}
+
+#MoMA {
+    height: 40rem;
+    width: 70rem;
+}
+.input1 {
+    justify-content: center;
+    border-radius: .2rem;
+    font-family: 'Oswald';
+    letter-spacing: .2rem;
+    color: #1a1b1c;
+    padding: .4rem;
+    width: 20rem;
+
+}
+input[type=button] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    
+ }
+ input[type=button]:hover {
+    background-color: #1E5C48;
+    color: #f6f6f6;
+ }
+
+ input[type=submit] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    
+ }
+ input[type=submit]:hover {
+    background-color: #1E5C48;
+    color: #f6f6f6;
+ }
+
+#submit:hover {
+    background-color: #1E5C48;
+    color: #f6f6f6;
+}
+
+input[type=email] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    width: 20rem;
+ }
+
+ input[type=string] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    width: 20rem;
+ }
+ input[type=number] { 
+
+    border-style: #fff solid;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2rem;
+    cursor:pointer;
+    padding: .4rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #545454;
+    border-radius: .3rem;
+    width: 13rem;
+ }
+
+#button_buy[type=submit] { 
+
+    border-style: #1E5C48 solid;
+    font-family: 'Oswald', sans-serif;
+    cursor:pointer;
+    padding: .4rem;
+    width: 22rem;
+    margin-bottom: 2rem;
+    border-width: 2px;
+    border-color: #1E5C48;
+    border-radius: .3rem;
+    letter-spacing: .1rem;
+ }
+ 
+ #button_buy[type=submit]:hover {
+    background-color: #1E5C48;
+    color: #f6f6f6;
+ }
+
+ 
+ #section_payment {
+    padding: 2rem;
+ }
+ #cardDetails {
+    width: 30rem;
+ }
+ 
+ #section_payment {
+    background-color: #f4f5f4;
+    width: 50rem;
+    text-align: center;
+    display: table-cell;
+ 
+}
+.MoMA2 {
+    width: 55rem;
+    height: 62rem; 
+}
+#contenedor-datos-tarjeta {
+    text-align:left ;
+}
+.container {
+    display: flex;
+}
+.pMoMA {
+    font-family:'Oswald', sans-serif; 
+    font-size: 5rem;
+    text-decoration: none;
+}
+.numeroMaskify {
+    font-size: 1rem;
+}

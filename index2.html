@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Oswald:wght@200&display=swap">
+ 
+  <title>Payment</title>
+</head>
+
+<header>
+  <p class="pMoMA">  <strong> MoMA </strong> </p>
+</header>
+
+<body>
+  <main class="container">
+    <div id="section_payment" class="box1">
+      <h2>Pay for your ticket</h2> <br>
+
+      <h3> Order summary</h3> <br><br>
+      <h4>General admission ticket $25</h4> <br> <br>
+
+      <label for="name" class="fullName"> Full name <br> </label>
+      <input type="string" name="name" id="name"> <br> 
+
+      <label for="name"> Email <address></address> </label>
+      <input type="email" name="email" id="email" required> <br> 
+
+      <label for="creditCardNumber">Credit Card Number</label> <br>
+      <input pattern=".{16,}" id="creditCardNumber" type="string" placeholder="**** **** **** ****" maxlength="16" required />
+      <br><span id="numeroMaskify" class="numeroMaskify"> Maskified number here</span> <br> <br>
+
+      <label for="card-details" class="cardDesign"> Expiration date <br> <input type="number" name="expiration_date"
+          id="expiration_date" placeholder="MM/YYYY"> </label> <br> 
+
+      <label for="card-details" class="cardDesign"> CVV* <br> <input type="number" name="cardCVV" id="cardCVV"
+          placeholder="Security code" required> </label> <br>
+
+      <input type="button" value="Purchase" id="btn-purchase"/> </div>
+
+    <div class="box2">
+        <img src="./imágenes/MoMA2.jpeg" class="MoMA2" alt="Museum of Modern Art in New York City">
+    </div>
+  </main>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

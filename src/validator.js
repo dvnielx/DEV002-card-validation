@@ -36,7 +36,7 @@ const validator = {
     console.log(total, agregarDigitos)
       return total
   },
-  // regresa una copia de los números de mi CC. 0 indica el primer elemento, -4 indica desplazamiento desde el final del array, extrae los 4 últimos elementos del array. .replace, reemplaza de forma global por un #
+  // regresa una copia de los números de mi CC. .slice extrae una sección del string y lo devuelve como un nuevo string sin modificar el original. 0 indica el primer elemento, -4 indica desplazamiento desde el final del array, extrae los 4 últimos elementos del array. .replace, reemplaza de forma global por un #
   maskify: (creditCardNumber) => {
   return creditCardNumber.slice(0, -4).replace(/./g, '#') + creditCardNumber.slice(-4)
 }

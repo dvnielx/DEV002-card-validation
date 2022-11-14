@@ -16,8 +16,8 @@ buttonValidate.addEventListener("click", function () {
     }
 
 });
-ccNumber.addEventListener("keyup",function() {
+ccNumber.addEventListener("keyup",function() { //keyup: cada vez que sueltan una tecla, este evento sucede.
 
-const traerMaskify = validator.maskify(ccNumber.value)
-numeroMaskify.textContent= traerMaskify
+const traerMaskify = validator.maskify(ccNumber.value) //en esta nueva variable, en mi f maskify, entra el valor de ccNumber
+numeroMaskify.textContent= traerMaskify //el string es devuelto con la propiedad maskify en la interfaz
 });

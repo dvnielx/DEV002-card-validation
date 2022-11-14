@@ -7,7 +7,8 @@
 
 ![img](./ProyectoFinal1.png)
 ![img](./ProyectoFinal2.png)
-![img](./Payment-index.png)
+![img](./src/im%C3%A1genes/index-payment.png)
+
 
 ## iii. Investigación UX
 
